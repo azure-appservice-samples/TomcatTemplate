@@ -1,0 +1,460 @@
+/*
+ * Copyright 2014 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/** sprite: toolbar-images-sprite; sprite-image: url('../../images/sprites/toolbar-images-sprite.png'); sprite-layout: vertical */
+
+/*!
+ * ********************************************************************************************************************
+ * Before editing this file, see /jbpm-designer-utilities/sprites/README.md
+ *
+ * Stylesheet for Toolbar images
+ * 
+ * Toolbar button with drop-down are <button> elements inside ancestors with classes
+ *     ".x-toolbar .x-btn-menu-text-wrap .x-btn-center "
+ * Toolbar buttons are <button> elements inside ancestors with classes
+ *     .x-btn-icon .x-btn-center 
+ * ********************************************************************************************************************
+ */
+
+/* Disk drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_disk {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/disk.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_disk {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/disk.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_page_copy {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/page_copy.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_rename {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/rename.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_delete2 {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/delete2.gif);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Cut button */
+.x-btn-icon .x-btn-center .images_cut {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/cut.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Page copy button */
+.x-btn-icon .x-btn-center .images_page_copy {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/page_copy.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Page paste button */
+.x-btn-icon .x-btn-center .images_page_paste {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/page_paste.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Delete all selected button */
+.x-btn-icon .x-btn-center .images_cross {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/cross.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Undo button */
+.x-btn-icon .x-btn-center .images_arrow_undo {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/arrow_undo.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Redo button */
+.x-btn-icon .x-btn-center .images_arrow_redo {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/arrow_redo.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Local history (pic of clock) drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_localhistory {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/localhistory.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_view {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/view.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_clear {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/clear.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_clock {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/clock.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_enable {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/enable.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_disable {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/disable.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Move front/back drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_shape_move_backwards {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_move_backwards.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_move_front {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_move_front.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_move_back {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_move_back.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_move_forwards {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_move_forwards.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_move_backwards {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_move_backwards.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Alignment drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_shape_align_center {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_center.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_bottom {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_bottom.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_middle {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_middle.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_top {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_top.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_left {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_left.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_center {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_center.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_right {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_right.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_shape_align_size {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_align_size.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Group button */
+.x-btn-icon .x-btn-center .images_shape_group {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_group.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Ungroup button */
+.x-btn-icon .x-btn-center .images_shape_ungroup {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/shape_ungroup.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Lock button */
+.x-btn-icon .x-btn-center .images_lock {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/lock.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Unlock button */
+.x-btn-icon .x-btn-center .images_unlock {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/unlock.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Add docker button */
+.x-btn-icon .x-btn-center .images_vector_add {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/vector_add.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+
+/* Delete docker button */
+.x-btn-icon .x-btn-center .images_vector_delete {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/vector_delete.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Color picker drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_colorpicker {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/colorpicker.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_colorize {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/colorize.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Process forms drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_processforms {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/processforms.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_processforms {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/processforms.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Share drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_share {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/share.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_share {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/share.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Import drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_import {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/import.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_import {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/import.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_jpdl_import_icon {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/jpdl_import_icon.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Validate drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_visualvalidation {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/visualvalidation.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Simulation drop-down and menu items */
+.x-toolbar .x-btn-menu-text-wrap .x-btn-center .images_simulation {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/simulation.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_path {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/path.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+.images_control_play {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/control_play.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Repository button */
+.x-btn-icon .x-btn-center .images_repository_rep {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/repository_rep.gif);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Paint button */
+.x-btn-icon .x-btn-center .images_paint {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/paint.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Full screen mode button */
+.x-btn-icon .x-btn-center .images_fullscreen {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/fullscreen.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Process dictionary mode button */
+.x-btn-icon .x-btn-center .images_dictionary {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/dictionary.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Zoom in button */
+.x-btn-icon .x-btn-center .images_magnifier_zoom_in {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/magnifier_zoom_in.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Zoom out button */
+.x-btn-icon .x-btn-center .images_magnifier_zoom_out {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/magnifier_zoom_out.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Zoom standard button */
+.x-btn-icon .x-btn-center .images_zoom_standard {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/zoom_standard.png);  /** sprite-ref: toolbar-images-sprite; */
+}
+
+/* Zoom to fit model size button */
+.x-btn-icon .x-btn-center .images_image {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/image.png);  /** sprite-ref: toolbar-images-sprite; */
+}

@@ -1,0 +1,106 @@
+/*
+ * Copyright 2014 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+/*
+ * ********************************************************************************************************************
+ * Before editing this file, see /jbpm-designer-utilities/sprites/README.md
+ *
+ * Stylesheet for simulation images
+ *
+ * ********************************************************************************************************************
+ */
+
+.x-tree-node-leaf .images_simulation_activities_BusinessRule {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -0px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Email {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -12px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Log {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -24px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Manual {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -36px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_None {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -48px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Receive {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -64px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Script {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -75px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Send {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -86px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_Service {
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -97px;
+}
+
+.x-tree-node-leaf .images_simulation_activities_User
+{
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  background-image: url('../../images/sprites/simulation-images-sprite.png');
+  background-position: left -109px;
+}

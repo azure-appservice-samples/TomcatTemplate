@@ -1,0 +1,43 @@
+if(!ORYX){var ORYX={}
+}if(!ORYX.Core){ORYX.Core={}
+}if(!ORYX.Core.SVG){ORYX.Core.SVG={}
+}ORYX.Core.SVG.MinMaxPathHandler=Clazz.extend({construct:function(){arguments.callee.$.construct.apply(this,arguments);
+this.minX=undefined;
+this.minY=undefined;
+this.maxX=undefined;
+this.maxY=undefined;
+this._lastAbsX=undefined;
+this._lastAbsY=undefined
+},calculateMinMax:function(c){if(c instanceof Array){var a,d;
+for(var b=0;
+b<c.length;
+b++){a=parseFloat(c[b]);
+b++;
+d=parseFloat(c[b]);
+this.minX=(this.minX!==undefined)?Math.min(this.minX,a):a;
+this.maxX=(this.maxX!==undefined)?Math.max(this.maxX,a):a;
+this.minY=(this.minY!==undefined)?Math.min(this.minY,d):d;
+this.maxY=(this.maxY!==undefined)?Math.max(this.maxY,d):d;
+this._lastAbsX=a;
+this._lastAbsY=d
+}}else{}},arcAbs:function(f,d,b,e,c,a,g){this.calculateMinMax([a,g])
+},arcRel:function(f,d,b,e,c,a,g){this.calculateMinMax([this._lastAbsX+a,this._lastAbsY+g])
+},curvetoCubicAbs:function(c,e,b,d,a,f){this.calculateMinMax([c,e,b,d,a,f])
+},curvetoCubicRel:function(c,e,b,d,a,f){this.calculateMinMax([this._lastAbsX+c,this._lastAbsY+e,this._lastAbsX+b,this._lastAbsY+d,this._lastAbsX+a,this._lastAbsY+f])
+},linetoHorizontalAbs:function(a){this.calculateMinMax([a,this._lastAbsY])
+},linetoHorizontalRel:function(a){this.calculateMinMax([this._lastAbsX+a,this._lastAbsY])
+},linetoAbs:function(a,b){this.calculateMinMax([a,b])
+},linetoRel:function(a,b){this.calculateMinMax([this._lastAbsX+a,this._lastAbsY+b])
+},movetoAbs:function(a,b){this.calculateMinMax([a,b])
+},movetoRel:function(a,b){if(this._lastAbsX&&this._lastAbsY){this.calculateMinMax([this._lastAbsX+a,this._lastAbsY+b])
+}else{this.calculateMinMax([a,b])
+}},curvetoQuadraticAbs:function(b,c,a,d){this.calculateMinMax([b,c,a,d])
+},curvetoQuadraticRel:function(b,c,a,d){this.calculateMinMax([this._lastAbsX+b,this._lastAbsY+c,this._lastAbsX+a,this._lastAbsY+d])
+},curvetoCubicSmoothAbs:function(b,c,a,d){this.calculateMinMax([b,c,a,d])
+},curvetoCubicSmoothRel:function(b,c,a,d){this.calculateMinMax([this._lastAbsX+b,this._lastAbsY+c,this._lastAbsX+a,this._lastAbsY+d])
+},curvetoQuadraticSmoothAbs:function(a,b){this.calculateMinMax([a,b])
+},curvetoQuadraticSmoothRel:function(a,b){this.calculateMinMax([this._lastAbsX+a,this._lastAbsY+b])
+},linetoVerticalAbs:function(a){this.calculateMinMax([this._lastAbsX,a])
+},linetoVerticalRel:function(a){this.calculateMinMax([this._lastAbsX,this._lastAbsY+a])
+},closePath:function(){return
+}});
