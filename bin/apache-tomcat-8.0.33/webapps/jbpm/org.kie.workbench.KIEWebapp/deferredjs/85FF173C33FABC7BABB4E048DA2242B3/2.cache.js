@@ -1,0 +1,1 @@
+$wnd.org_kie_workbench_KIEWebapp.runAsyncCallback2("tPf(1,null,{});_.gC=function dc(){return this.cZ};tPf(2646,1,e9v);_.NX=function yUo(){xUo()};var a_d=WAg(yYw,'Container/CallbacksRunnable',2646,TVb);GWv(z5)(2);\n//# sourceURL=org.kie.workbench.KIEWebapp-2.js\n")

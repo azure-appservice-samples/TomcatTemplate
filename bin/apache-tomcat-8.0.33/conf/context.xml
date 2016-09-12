@@ -17,17 +17,21 @@
 -->
 <!-- The contents of this file will be loaded for each web application -->
 <Context>
-
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
     <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+    <!-- config as https://apurvasingh67.wordpress.com/2014/03/03/how-to-install-jbpm6-on-tomcat7-x/comment-page-1/ -->
+    <Resource name="jdbc/jbpm" auth="Container" type="javax.sql.DataSource" 
+    factory="bitronix.tm.resource.ResourceObjectFactory" 
+    uniqueName="jdbc/jbpm" 
+    driverClassName="org.h2.Driver"/>
+    <Transaction factory="bitronix.tm.BitronixUserTransactionObjectFactory" />
 
     <!-- Uncomment this to disable session persistence across Tomcat restarts -->
     <!--
     <Manager pathname="" />
     -->
-
     <!-- Uncomment this to enable Comet connection tacking (provides events
          on session expiration as well as webapp lifecycle) -->
     <!--
